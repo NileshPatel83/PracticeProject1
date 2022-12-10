@@ -1,4 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+html{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+body{
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Kreon', serif;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform:uppercase;
+    letter-spacing: 2rem;
+    text-indent: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header, footer{
+    background-color: black;
+    text-align: right;
+    line-height: 2.5rem;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+nav li{
+    display: inline;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+figure{
+    position: relative;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+.hero-text{
+    text-align: center;  
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-info{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.highlights{
+    display: flow-root;
+}
+
+.highlights h2{
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.menu-item h2{
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.menu-item li{
+    margin:1rem 2rem;
+    list-style-type: none;
+}
+
+.highlights .left-image{
+    float: left;
+    width: 20%;
+}
+
+.highlights .right-image{
+    float: right;
+     width: 20%;
+}
+
+.highlights p{
+    display: inline-block;
+    width: 76%;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
 }
