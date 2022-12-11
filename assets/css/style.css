@@ -88,12 +88,26 @@ figure{
 .menu-item h2{
     margin-top:1rem;
     margin-bottom: 0.5rem;
-    margin-left: 1rem;
+    
 }
 
-.menu-item li{
+.menu-item{
     margin:1rem 2rem;
-    list-style-type: none;
+    display: flow-root;
+}
+
+.menu-item .food-item{
+    margin-bottom: 1rem;
+}
+
+.menu-item .food, .menu-item .price{
+    font-size: 1.25rem;
+    display: inline;
+}
+
+.menu-item .price{
+    float: right;
+    margin-right: 2rem;
 }
 
 .highlights .left-image{
