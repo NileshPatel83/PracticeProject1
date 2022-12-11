@@ -127,3 +127,17 @@ figure{
     padding-left: 2%;
     padding-right: 2%;
 }
+
+@media screen and (max-width: 768px) {
+    .highlights .left-image{
+        width: 100%;
+    }
+    
+    .highlights .right-image{
+         width: 100%;
+    }
+
+    .highlights p{
+        width: 96%;
+    }
+}
